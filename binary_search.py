@@ -1,5 +1,6 @@
 """
-Basic binary search function
+Basic binary search function, it takes list of elements and a searched element as positional arguments
+PS: It looks only for elements that are present in the list
 """
 
 
@@ -22,5 +23,3 @@ def binary_search(lst, tgt):
             start = middle + 1
     return -1
 
-
-binary_search([22, 23321, 1, 23, 7, 9, 10], 9)
